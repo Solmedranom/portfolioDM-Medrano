@@ -1,0 +1,196 @@
+
+/* COLORES MARCA:
+background: #000000;
+background: #DA98A7;
+background: #82C2D9;
+background: #AAABA8;
+background: #D9D6AD; 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+header{
+  background-color: #cfcfcf;
+  Display: flex;
+  font-family: 'Nunito Sans', sans-serif;
+  justify-content: space-between;
+grid-area: header;
+}
+
+nav{
+  padding-top: 30px 
+}
+
+li {
+  padding: 40px;
+  list-style-type: none;
+  display: inline;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.contenedor1{
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+  "header header"
+  "carru carru"
+  "main img"
+  "parra parra"
+  "footer footer";
+}
+
+main{
+  /*background-color: palegoldenrod;*/
+  grid-area: main;
+  padding: 100px;
+}
+
+.img-cv {
+  width: 500px;
+  position: relative;
+  grid-area: img;
+margin-right: 20px;
+}
+.carouselExampleIndicators{
+  background-color: #DA98A7;
+  grid-area: carru;
+  
+}
+
+/*.parrafodes{
+  grid-area: parra;
+  background-color: palevioletred;
+  padding: 20px;
+}*/
+
+h1 {
+  font-size: 45px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h4{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.parrafo1{
+  font-size: 13px;
+  margin: 30px;
+  text-align: justify;
+}
+
+.parrafo2{
+  font-size: 18px;
+  margin: 10px;
+  text-align: justify;
+} 
+
+.imgport {
+  width: 700px;
+}
+
+footer {
+  border-top: 2px solid black;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 15px; 
+  grid-area: footer;
+  background-color: paleturquoise;
+}
+
+/* CONTACTAME*/
+
+.formu{
+  height: 400px;
+  display: flex;
+  margin: 10px;
+  padding: 30px; 
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+input{
+  background-color: #cfcfcf;
+    Border: solid 1px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 400px;
+}
+
+.escribir3{
+  height: 100px;
+  width: 800px;
+}
+
+button {
+  background-color: #DA98A7;
+  Border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100px;
+  align-self: center;
+}
+
+/* REDES */
+
+.iconos {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 30px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rs {
+  width: 80px;
+  height: 80px;
+}
+
+
+/*SOBRE MI*/
+
+.parrafosm{
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+  text-align: justify;
+}
+
+.cv{
+width: 200px;
+height: 50px;
+background-color: #DA98A7;
+border: none;
+cursor: pointer;
+padding: 10px;
+margin: 30px;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
