@@ -69,7 +69,6 @@ margin-right: 20px;
 }
 .carouselExampleIndicators{
   background-color: #DA98A7;
-  justify-items: center;
   grid-area: carru;
   
 }
