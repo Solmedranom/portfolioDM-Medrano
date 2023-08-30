@@ -67,6 +67,7 @@ main{
   grid-area: img;
 margin-right: 20px;
 }
+
 .carouselExampleIndicators{
   background-color: #DA98A7;
   grid-area: carru;
