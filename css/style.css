@@ -44,7 +44,7 @@ a{
   text-decoration: none;
 }
 
-.contenedor1{
+/*.contenedor1{
   display: grid;
   gap: 10px;
   grid-template-areas:
@@ -52,7 +52,7 @@ a{
   "carru carru"
   "main img"
   "parra parra"
-  "footer footer";
+  "footer footer";*/
 }
 
 main{
