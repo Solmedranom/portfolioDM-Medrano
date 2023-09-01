@@ -21,12 +21,10 @@ background: #D9D6AD;
   cursor: pointer;
 }
 
-header{
-  background-color: #cfcfcf;
-  Display: flex;
+header {
+  background-color: #AAABA8;
   font-family: 'Nunito Sans', sans-serif;
-  justify-content: space-between;
-grid-area: header;
+
 }
 
 nav{
@@ -52,8 +50,8 @@ a{
   "carru carru"
   "main img"
   "parra parra"
-  "footer footer";*/
-}
+  "footer footer";
+}*/
 
 main{
   /*background-color: palegoldenrod;*/
