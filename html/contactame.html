@@ -15,38 +15,63 @@
   </head>
   <body class="contenedor">
     <header>
-      <a href="../index.html"
-        ><img src="../img/LOGO.png" class="logo" alt="LOGO"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="mistrabajos.html">Mis trabajos</a></li>
-          <li><a href="sobremi.html">Sobre mi</a></li>
-          <li><a href="sociales.html">Sociales</a></li>
-          <li><a href="contactame.html">Contactame</a></li>
-        </ul>
-      </nav>
-    </header>
 
+      <nav class="navbar navbar-expand-lg ">
+        
+        <a class="navbar-brand ms-3" href="../index.html"><img src="../img/LOGO.png" class="logo" alt="LOGO"
+          /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="mistrabajos.html">Mis trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobremi.html">Sobre mi</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="sociales.html">Sociales</a>
+           </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Contactame</a>
+            </li>
+
+          </ul>
+        </div>
+    
+    </nav>
+    </header>
+<div class="container-fluid"><br>
     <h3>Contactame</h3>
     
     <p class="parrafo1">
      Podes escribirme a mi correo o dejarme un mensaje!
     </p>
 
-      <!-- <a href="mailto: solmedranom@gmail.com " target="_blank"><img src="../img/gmail.svg" class="rs"" alt="logo de gmail"></a> -->
-
-      <form class="formu">
-        <label for="nombre">Nombre</label>
-        <input id="nombre" type="text" placeholder="Nombre completo" required>
-        <label for="mail">Correo electronico</label>
-        <input id="mail" type="mail" placeholder="Mail" required>   
-        <label for="mensaje">Mensaje</label>
-      <input id="mensaje" type="text" placeholder="¡Deja tu mensaje!" required>
-      <button type="submit">Enviar</button> <button type="reset">Resetear</button>
+    <form class="formu">  
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-2 text-center">
+      <input class="btn" type="submit" value="Enviar"></div>
+      <div class="mb-2 mt-1 text-center">
+    <input class="btn" type="reset" value="Resetear">
+      </div>
     </form>
     
-
+<br>
     <footer>
       <div class="contenedor">
       <small>
