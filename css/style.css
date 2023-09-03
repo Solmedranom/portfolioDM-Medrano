@@ -38,19 +38,8 @@ a{
   text-decoration: none;
 }
 
-/*.contenedor1{
-  display: grid;
-  gap: 10px;
-  grid-template-areas:
-  "header header"
-  "carru carru"
-  "main img"
-  "parra parra"
-  "footer footer";
-}*/
 
 main{
-  /*background-color: palegoldenrod;*/
   grid-area: main;
   padding: 100px;
 }
@@ -62,11 +51,6 @@ main{
 margin-right: 20px;
 }
 
-.carouselExampleIndicators{
-  background-color: #DA98A7;
-  grid-area: carru;
-  
-}
 .btn { 
   background-color: #DA98A7;
   padding: 10px;
@@ -80,11 +64,7 @@ margin-right: 20px;
   font-size: 15px;
   width: 100px;
 }
-/*.parrafodes{
-  grid-area: parra;
-  background-color: palevioletred;
-  padding: 20px;
-}*/
+
 
 h1 {
   font-size: 45px;
