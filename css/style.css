@@ -91,6 +91,11 @@ h1 {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+h2{
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 h3 {
   font-size: 30px;
   font-family: 'Nunito Sans', sans-serif;
@@ -104,8 +109,9 @@ h4{
 
 .parrafo1{
   font-size: 13px;
-  margin: 30px;
   text-align: justify;
+  font-weight: lighter;
+  font-style: oblique;
 }
 
 .parrafo2{
