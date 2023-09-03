@@ -27,10 +27,10 @@ nav {
   padding-top: 30px 
 }
 
-li {
+
+.navbar-nav  {
   padding: 40px;
   list-style-type: none;
-  display: inline;
 }
 
 a{
@@ -69,6 +69,13 @@ margin-right: 20px;
 }
 .btn { 
   background-color: #DA98A7;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+}
+.btn:hover {
+  background-color: #f8cfd8;
+  border-color: #DA98A7;
   padding: 10px;
   font-size: 15px;
   width: 100px;
@@ -112,13 +119,7 @@ h4{
 }
 
 footer {
-  border-top: 1px solid black;
-  margin-top: 30px;
-  margin-left: 10px;
-  padding: 10px; 
-  font-size: 14px;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: paleturquoise;
 }
 
 /* CONTACTAME*/
