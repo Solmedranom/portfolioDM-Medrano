@@ -52,6 +52,9 @@ main{
   grid-area: img;
 margin-right: 20px;
 }
+.img-sm {
+  height: 400px;
+}
 
 .btn { 
   background-color: #DA98A7;
