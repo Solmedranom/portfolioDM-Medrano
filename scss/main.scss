@@ -5,3 +5,11 @@
 @import "_vars";
 @import "_mist";
 @import "_index";
+
+* {
+font-size: $textoFont;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
