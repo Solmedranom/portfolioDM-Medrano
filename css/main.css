@@ -4,31 +4,13 @@
   padding: 30px;
 }
 
-button {
-  margin: 5px;
-  padding: 10px;
-}
-
 .escribir3 {
   height: 100px;
   width: 800px;
 }
 
-button {
-  background-color: #da98a7;
-  border: none;
-  padding: 10px;
-  font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
-  width: 100px;
-  align-self: center;
-}
-
 * {
   font-size: "Montserrat", sans-serif;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
 
 .logo {
@@ -39,6 +21,7 @@ button {
 nav {
   background-color: #aaaba8;
   font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
 }
 nav .navbar-nav {
   padding: 40px;
@@ -47,6 +30,10 @@ nav .navbar-nav {
 nav a {
   color: #0b0b0b;
   text-decoration: none;
+}
+
+main {
+  padding: 100px;
 }
 
 .img-cv {
@@ -126,6 +113,9 @@ footer {
   height: 300px;
   margin: 10px;
   padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .rs {

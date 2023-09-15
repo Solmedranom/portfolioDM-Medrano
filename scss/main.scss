@@ -7,9 +7,6 @@
 
 * {
   font-size: $textoFont;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
 
 .logo {
@@ -20,7 +17,7 @@
 nav {
   background-color: $colorG;
   font-family: $especialFont;
-
+  font-size: $texto1;
   .navbar-nav {
     padding: $espacio40;
     list-style-type: $textDeco;
@@ -32,10 +29,13 @@ nav {
   }
 }
 
+main {
+  padding: $espacio100;
+}
+
 .img-cv {
   width: $imgMd;
   margin-right: $espacio20;
-
 }
 
 .img-sm {
@@ -43,7 +43,7 @@ nav {
 }
 
 .imgport {
-width: $imgXl;
+  width: $imgXl;
 }
 
 .btn {
@@ -52,7 +52,7 @@ width: $imgXl;
   font-size: $textoBtn;
   width: $tambtn;
 
-  &:hover { 
+  &:hover {
     background-color: $colorS;
     border-color: $colorR;
     padding: $espacio10;
@@ -84,12 +84,12 @@ h4 {
 }
 
 .parrafo1 {
-font-size: $texto2;
-text-align: $textoJusti;
-font-weight: $textLight;
-font-style: $textItali;
+  font-size: $texto2;
+  text-align: $textoJusti;
+  font-weight: $textLight;
+  font-style: $textItali;
 }
- 
+
 .parrafo2 {
   font-size: $texto1;
   margin: $espacio10;
@@ -111,6 +111,9 @@ footer {
   height: $tam300;
   margin: $espacio10;
   padding: $espacio30;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .rs {

@@ -114,25 +114,12 @@ footer {
   justify-content: space-between;
 }
 
-button {
-  margin: 5px;
-  padding: 10px;
-}
-
 .escribir3 {
   height: 100px;
   width: 800px;
 }
 
-button {
-  background-color: #da98a7;
-  border: none;
-  padding: 10px;
-  font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
-  width: 100px;
-  align-self: center;
-}
+
 
 /* REDES */
 
