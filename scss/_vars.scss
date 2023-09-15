@@ -1,16 +1,17 @@
 // variables
 
 //Paleta de colores marca
-$colorR: #DA98A7;
-$colorB: #82C2D9;
-$colorG: #AAABA8;
-$colorA: #D9D6AD;
-$colorK: #0B0B0B;
-$white: #EEE9E9;
+$colorR: #da98a7;
+$colorS: #f8cfd8;
+$colorB: #82c2d9;
+$colorG: #aaaba8;
+$colorA: #d9d6ad;
+$colorK: #0b0b0b;
+$white: #eee9e9;
 
 //Font
-$textoFont: 'Montserrat', sans-serif;
-$especialFont: 'Nunito Sans', sans-serif;
+$textoFont: "Montserrat", sans-serif;
+$especialFont: "Nunito Sans", sans-serif;
 
 //Tamaños
 $titulo1: 45px;
@@ -22,13 +23,45 @@ $texto2: 13px;
 
 $textoBtn: 15px;
 
-//pesos
+//pesos y decos
 $textLight: 300;
 $textRegular: 400;
 $textBold: 600;
+$textItali: oblique;
+$textUnder: underline;
+$textDeco: none;
 
-//Tamaños
+//Alineacion
+$textoJusti: justify;
+$textoCenter: center;
+
+
+//Tamaños imagenes
 $imgXl: 700px;
 $imgMd: 500px;
 $imgSm: 400px;
 $imgLogo: 150px;
+
+//tamaños
+$tambtn: 100px;
+$tamform: 400px;
+$tam50: 50px;
+$tam80: 80px;
+$tam100: 100px;
+$tam200: 200px;
+$tam300: 300px;
+$tam800: 800px;
+
+//margenes
+$espacio5: 5px;
+$espacio10: 10px;
+$espacio20: 20px;
+$espacio30: 30px;
+$espacio40: 40px;
+$espacio50: 50px;
+$espacio60: 60px;
+$espacio70: 70px;
+$espacio80: 80px;
+$espacio90: 90px;
+$espacio100: 100px;
+

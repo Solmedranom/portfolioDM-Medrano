@@ -1,15 +1,132 @@
 //imports
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
-@import "_comun";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
 @import "_vars";
 @import "_mist";
-@import "_index";
+@import "_contacto";
 
 * {
-font-size: $textoFont;
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+  font-size: $textoFont;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
+.logo {
+  width: $imgLogo;
+  cursor: pointer;
+}
+
+nav {
+  background-color: $colorG;
+  font-family: $especialFont;
+
+  .navbar-nav {
+    padding: $espacio40;
+    list-style-type: $textDeco;
+  }
+
+  a {
+    color: $colorK;
+    text-decoration: $textDeco;
+  }
+}
+
+.img-cv {
+  width: $imgMd;
+  margin-right: $espacio20;
+
+}
+
+.img-sm {
+  height: $imgSm;
+}
+
+.imgport {
+width: $imgXl;
+}
+
+.btn {
+  background-color: $colorR;
+  padding: $espacio10;
+  font-size: $textoBtn;
+  width: $tambtn;
+
+  &:hover { 
+    background-color: $colorS;
+    border-color: $colorR;
+    padding: $espacio10;
+    font-size: $textoBtn;
+    width: $tambtn;
+  }
+}
+
+h1 {
+  font-size: $titulo1;
+  font-family: $especialFont;
+}
+
+h2 {
+  font-size: $titulo1;
+  font-family: $textoFont;
+  font-weight: $textBold;
+}
+
+h3 {
+  font-size: $titulo2;
+  font-family: $especialFont;
+}
+
+h4 {
+  font-size: $titulo3;
+  font-family: $especialFont;
+  text-decoration: $textUnder;
+}
+
+.parrafo1 {
+font-size: $texto2;
+text-align: $textoJusti;
+font-weight: $textLight;
+font-style: $textItali;
+}
+ 
+.parrafo2 {
+  font-size: $texto1;
+  margin: $espacio10;
+  text-align: $textoJusti;
+}
+
+.parrafosm {
+  font-family: $textoFont;
+  margin: $espacio30;
+  text-align: $textoJusti;
+}
+
+footer {
+  font-family: $especialFont;
+}
+
+.iconos {
+  width: $tam300;
+  height: $tam300;
+  margin: $espacio10;
+  padding: $espacio30;
+}
+
+.rs {
+  width: $tam80;
+  height: $tam80;
+}
+
+.cv {
+  width: $tam200;
+  height: $tam50;
+  background-color: $colorR;
+  border: none;
+  cursor: pointer;
+  padding: $espacio10;
+  margin: $espacio30;
+  font-size: $titulo3;
+  font-family: $textoFont;
+  text-align: $textoCenter;
+}

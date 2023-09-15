@@ -1,9 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
+.formu {
+  height: 400px;
+  padding: 30px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.escribir3 {
+  height: 100px;
+  width: 800px;
+}
+
+button {
+  background-color: #da98a7;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  width: 100px;
+  align-self: center;
+}
+
 * {
   font-size: "Montserrat", sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #aaaba8;
+  font-family: "Nunito Sans", sans-serif;
+}
+nav .navbar-nav {
+  padding: 40px;
+  list-style-type: none;
+}
+nav a {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+
+.img-cv {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.img-sm {
+  height: 400px;
+}
+
+.imgport {
+  width: 700px;
+}
+
+.btn {
+  background-color: #da98a7;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+}
+.btn:hover {
+  background-color: #f8cfd8;
+  border-color: #da98a7;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: underline;
+}
+
+.parrafo1 {
+  font-size: 13px;
+  text-align: justify;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.parrafo2 {
+  font-size: 18px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.parrafosm {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  text-align: justify;
+}
+
+footer {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.iconos {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.rs {
+  width: 80px;
+  height: 80px;
+}
+
+.cv {
+  width: 200px;
+  height: 50px;
+  background-color: #da98a7;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 30px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
