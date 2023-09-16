@@ -11,6 +11,7 @@
 
 * {
   font-size: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -47,6 +48,10 @@ main {
 
 .imgport {
   width: 700px;
+}
+
+.imgXs {
+  height: 200px;
 }
 
 .btn {
@@ -99,9 +104,16 @@ h4 {
 }
 
 .parrafosm {
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
   margin: 30px;
   text-align: justify;
+}
+
+.importante {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 footer {
