@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
 @import "_vars";
+@import "_mixins";
 @import "_mist";
 @import "_contacto";
 
@@ -31,7 +32,7 @@ nav {
 }
 
 main {
-  padding: $espacio100;
+  padding: $espacio50;
 }
 
 .img-cv {

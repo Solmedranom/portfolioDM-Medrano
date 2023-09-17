@@ -1,0 +1,8 @@
+@mixin textos($size, $line, $color, $padding) {
+  font-family: $textoFont;
+  font-size: $size;
+  line-height: $line;
+  color: $color;
+  padding: $padding;
+  margin: 5px;
+}
