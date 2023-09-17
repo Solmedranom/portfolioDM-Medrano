@@ -38,6 +38,11 @@ main {
 .img-cv {
   width: $imgMd;
   margin-right: $espacio20;
+  &:hover {
+    transform: translateX(100px);
+    animation-timing-function: linear;
+    transition: all 5s;
+  }
 }
 
 .img-sm {
@@ -48,7 +53,7 @@ main {
   width: $imgXl;
 }
 
-.imgXs{
+.imgXs {
   height: $imgXs;
 }
 
@@ -111,8 +116,8 @@ h4 {
 
 .importante {
   font-family: $especialFont;
-font-weight: $textBold;
-font-size: $titulo3;
+  font-weight: $textBold;
+  font-size: $titulo3;
 }
 
 footer {
@@ -127,6 +132,11 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  &:hover {
+    transform: translateX(50px);
+    animation-timing-function: linear;
+    transition: all 5s;
+  }
 }
 
 .rs {

@@ -41,6 +41,11 @@ main {
   width: 500px;
   margin-right: 20px;
 }
+.img-cv:hover {
+  transform: translateX(100px);
+  animation-timing-function: linear;
+  transition: all 5s;
+}
 
 .img-sm {
   height: 400px;
@@ -128,6 +133,11 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.iconos:hover {
+  transform: translateX(50px);
+  animation-timing-function: linear;
+  transition: all 5s;
 }
 
 .rs {
