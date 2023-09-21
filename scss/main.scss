@@ -95,22 +95,19 @@ h4 {
 }
 
 .parrafo1 {
-  font-size: $texto2;
+  @include texto ($texto2, 1, $colorK, $espacio10);
   text-align: $textoJusti;
   font-weight: $textLight;
   font-style: $textItali;
 }
 
 .parrafo2 {
-  font-size: $texto1;
-  margin: $espacio10;
+  @include texto ($texto1, 1.2, $colorK, $espacio10); 
   text-align: $textoJusti;
 }
 
 .parrafosm {
-  font-size: $textoBtn;
-  font-family: $textoFont;
-  margin: $espacio30;
+  @include texto ($textoBtn, 1, $colorK, $espacio10);  
   text-align: $textoJusti;
 }
 

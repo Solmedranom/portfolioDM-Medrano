@@ -1,4 +1,4 @@
-@mixin textos($size, $line, $color, $padding) {
+@mixin texto ($size, $line, $color, $padding) {
   font-family: $textoFont;
   font-size: $size;
   line-height: $line;

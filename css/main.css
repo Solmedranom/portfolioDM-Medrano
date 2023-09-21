@@ -96,22 +96,34 @@ h4 {
 }
 
 .parrafo1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
+  line-height: 1;
+  color: #0b0b0b;
+  padding: 10px;
+  margin: 5px;
   text-align: justify;
   font-weight: 300;
   font-style: oblique;
 }
 
 .parrafo2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  margin: 10px;
+  line-height: 1.2;
+  color: #0b0b0b;
+  padding: 10px;
+  margin: 5px;
   text-align: justify;
 }
 
 .parrafosm {
-  font-size: 15px;
   font-family: "Montserrat", sans-serif;
-  margin: 30px;
+  font-size: 15px;
+  line-height: 1;
+  color: #0b0b0b;
+  padding: 10px;
+  margin: 5px;
   text-align: justify;
 }
 
