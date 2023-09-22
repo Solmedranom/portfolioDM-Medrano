@@ -3,12 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
 @import "_vars";
 @import "_mixins";
-@import "_mist";
 @import "_contacto";
 
 * {
   font-size: $textoFont;
   box-sizing: border-box;
+}
+
+.index{
+width: 100%;
+overflow-x: hidden;
 }
 
 .logo {
@@ -17,6 +21,7 @@
 }
 
 nav {
+  width: 100%;
   background-color: $colorG;
   font-family: $especialFont;
   font-size: $texto1;
@@ -38,11 +43,6 @@ main {
 .img-cv {
   width: $imgMd;
   margin-right: $espacio20;
-  &:hover {
-    transform: translateX(100px);
-    animation-timing-function: linear;
-    transition: all 5s;
-  }
 }
 
 .img-sm {
@@ -152,4 +152,20 @@ footer {
   font-size: $titulo3;
   font-family: $textoFont;
   text-align: $textoCenter;
+}
+
+.error {
+  width: 100%; 
+  text-align: $textoCenter;
+  a{
+    color: $colorK;
+    text-decoration: $textDeco;
+  }
+  .volver{
+    text-align: $textoCenter;
+    font-family: $especialFont;
+    font-size: $titulo2;
+    font-weight: $textBold;
+  }
+  
 }

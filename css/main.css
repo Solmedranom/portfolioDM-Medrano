@@ -14,12 +14,18 @@
   box-sizing: border-box;
 }
 
+.index {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .logo {
   width: 150px;
   cursor: pointer;
 }
 
 nav {
+  width: 100%;
   background-color: #aaaba8;
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
@@ -40,11 +46,6 @@ main {
 .img-cv {
   width: 500px;
   margin-right: 20px;
-}
-.img-cv:hover {
-  transform: translateX(100px);
-  animation-timing-function: linear;
-  transition: all 5s;
 }
 
 .img-sm {
@@ -168,6 +169,21 @@ footer {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+.error {
+  width: 100%;
+  text-align: center;
+}
+.error a {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+.error .volver {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
