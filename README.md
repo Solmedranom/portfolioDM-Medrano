@@ -45,5 +45,5 @@ Especial gracias a Coco, el caniche mala onda.
 
    [Wireframes]: <https://www.figma.com/proto/el9xpe2KVx0PCDa4bUw4IT/DW-portfolio?type=design&node-id=235-209&t=bwLUaj16ciZy0eeQ-1&scaling=contain&page-id=211%3A10&mode=design>
    [GitHub-Repository]: <https://github.com/Solmedranom/portfolioDM-Medrano>
-   [GitHub-Deploy]: <>
-   [Netlify]: <>
+   [GitHub-Deploy]: <https://solmedranom.github.io/portfolioDM-Medrano/>
+   [Netlify]: <https://solmedranom.netlify.app/>
