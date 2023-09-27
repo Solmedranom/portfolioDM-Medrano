@@ -10,9 +10,19 @@
   box-sizing: border-box;
 }
 
+.navbar-toggler{
+padding: 15px;
+margin-right: 15px;
+color: $colorR;
+}
+
 .index{
 width: 100%;
 overflow-x: hidden;
+}
+
+.mistrabajos{
+  overflow-x: hidden;
 }
 
 .logo {
@@ -46,7 +56,7 @@ main {
 }
 
 .img-sm {
-  height: $imgSm;
+  width: $imgSm;
 }
 
 .imgport {
@@ -55,6 +65,11 @@ main {
 
 .imgXs {
   height: $imgXs;
+}
+
+.marca{
+  width: 100%;
+
 }
 
 .btn {
@@ -78,14 +93,14 @@ h1 {
 }
 
 h2 {
-  font-size: $titulo1;
-  font-family: $textoFont;
-  font-weight: $textBold;
+  font-size: $titulo2;
+  font-family: $especialFont;
 }
 
 h3 {
-  font-size: $titulo2;
-  font-family: $especialFont;
+  font-size: $titulo1;
+  font-family: $textoFont;
+  font-weight: $textBold;
 }
 
 h4 {
@@ -116,6 +131,8 @@ h4 {
   font-weight: $textBold;
   font-size: $titulo3;
 }
+
+
 
 footer {
   font-family: $especialFont;

@@ -14,8 +14,18 @@
   box-sizing: border-box;
 }
 
+.navbar-toggler {
+  padding: 15px;
+  margin-right: 15px;
+  color: #da98a7;
+}
+
 .index {
   width: 100%;
+  overflow-x: hidden;
+}
+
+.mistrabajos {
   overflow-x: hidden;
 }
 
@@ -49,7 +59,7 @@ main {
 }
 
 .img-sm {
-  height: 400px;
+  width: 400px;
 }
 
 .imgport {
@@ -58,6 +68,10 @@ main {
 
 .imgXs {
   height: 300px;
+}
+
+.marca {
+  width: 100%;
 }
 
 .btn {
@@ -80,14 +94,14 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 h3 {
-  font-size: 30px;
-  font-family: "Nunito Sans", sans-serif;
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 h4 {
