@@ -10,18 +10,21 @@
   box-sizing: border-box;
 }
 
-.navbar-toggler{
-padding: 15px;
-margin-right: 15px;
-color: $colorR;
+.navbar-toggler {
+  padding: 15px;
+  margin-right: 15px;
+  color: $colorR;
 }
 
-.index{
-width: 100%;
-overflow-x: hidden;
+.index {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url(../img/fondos/1.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
-.mistrabajos{
+.mistrabajos {
   overflow-x: hidden;
 }
 
@@ -67,9 +70,8 @@ main {
   height: $imgXs;
 }
 
-.marca{
+.marca {
   width: 100%;
-
 }
 
 .btn {
@@ -110,19 +112,19 @@ h4 {
 }
 
 .parrafo1 {
-  @include texto ($texto2, 1, $colorK, $espacio10);
+  @include texto($texto2, 1, $colorK, $espacio10);
   text-align: $textoJusti;
   font-weight: $textLight;
   font-style: $textItali;
 }
 
 .parrafo2 {
-  @include texto ($texto1, 1.2, $colorK, $espacio10); 
+  @include texto($texto1, 1.2, $colorK, $espacio10);
   text-align: $textoJusti;
 }
 
 .parrafosm {
-  @include texto ($textoBtn, 1, $colorK, $espacio10);  
+  @include texto($textoBtn, 1, $colorK, $espacio10);
   text-align: $textoJusti;
 }
 
@@ -131,8 +133,6 @@ h4 {
   font-weight: $textBold;
   font-size: $titulo3;
 }
-
-
 
 footer {
   font-family: $especialFont;
@@ -172,17 +172,23 @@ footer {
 }
 
 .error {
-  width: 100%; 
+  width: 100%;
   text-align: $textoCenter;
-  a{
+  a {
     color: $colorK;
     text-decoration: $textDeco;
   }
-  .volver{
+  .volver {
     text-align: $textoCenter;
     font-family: $especialFont;
     font-size: $titulo2;
     font-weight: $textBold;
   }
-  
+}
+
+.sobremi{
+  background-image: url(../img/fondos/2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }

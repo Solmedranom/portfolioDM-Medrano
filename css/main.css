@@ -23,6 +23,9 @@
 .index {
   width: 100%;
   overflow-x: hidden;
+  background-image: url(../img/fondos/1.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 .mistrabajos {
@@ -198,6 +201,13 @@ footer {
   font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
+}
+
+.sobremi {
+  background-image: url(../img/fondos/2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 /*# sourceMappingURL=main.css.map */
