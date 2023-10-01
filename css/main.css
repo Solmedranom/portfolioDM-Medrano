@@ -162,7 +162,7 @@ footer {
   padding: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .iconos:hover {
   transform: translateX(50px);
@@ -173,6 +173,13 @@ footer {
 .rs {
   width: 80px;
   height: 80px;
+}
+
+.sociales {
+  background-image: url(../img/fondos/1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 .cv {
@@ -208,6 +215,12 @@ footer {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 0%;
+}
+
+.contacto {
+  background-image: url(../img/fondos/2.png);
+  background-repeat: no-repeat;
+  background-position: 40%;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -145,8 +145,8 @@ footer {
   padding: $espacio30;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  &:hover {
+  justify-content: space-between;
+ &:hover {
     transform: translateX(50px);
     animation-timing-function: linear;
     transition: all 5s;
@@ -156,6 +156,13 @@ footer {
 .rs {
   width: $tam80;
   height: $tam80;
+
+}
+.sociales{
+  background-image: url(../img/fondos/1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 .cv {
@@ -191,4 +198,10 @@ footer {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 0%;
+}
+
+.contacto{
+  background-image: url(../img/fondos/2.png);
+  background-repeat: no-repeat;
+  background-position: 40%;
 }
